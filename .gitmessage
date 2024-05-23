@@ -1,0 +1,14 @@
+# --------------------------------------------- #
+# <type>: <description>
+# --------------------------------------------- #
+
+# ------------------------------------------------------------------- #
+# [optional body]
+# ------------------------------------------------------------------- #
+# Remove # and respect line length indicators. Keep blank line.
+# <type>: [fix, feat, docs, refactor]
+# description: Explain *what*
+# optional body: Explain in more details *what* adn *why*
+# Resources:
+# https://www.conventionalcommits.org/en/v1.0.0/
+# https://chris.beams.io/posts/git-commit/
