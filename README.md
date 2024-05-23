@@ -27,10 +27,10 @@ The template file consists of basic instructions for the user on how to write th
 
 ### Implementing template in Git
 
-Now that we have our own commit template, we can make sure that it will appear every time we do a <code>git commit</code> in our lives. Basically, we must include this file in our git configuration propriety <code>commit.template</code>. We can either include it in our local git config or in our global config using the tag <code>--global</code>. If the template file name is, <code>gitmessage.txt</code>, then the command reads (with the global tag):
+Now that we have our own commit template, we can make sure that it will appear every time we do a <code>git commit</code> in our lives. Basically, we must include this file in our git configuration propriety <code>commit.template</code>. We can either include it in our local git config or in our global config using the tag <code>--global</code>. If the template file name is, <code>gitmessage</code>, then the command reads (with the global tag):
 
 ```Git
-    git config --global commit.template ~/.gitmessage.txt
+    git config --global commit.template ~/.gitmessage
 ```
 
 ### Using VS code as editor in git commit
